@@ -6,15 +6,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import 'react-toastify/dist/ReactToastify.css';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import { UserContextProvider } from './context/UserContext';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <UserContextProvider>
         <App />
       </UserContextProvider>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>,
 )

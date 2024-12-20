@@ -148,26 +148,23 @@ function Navbar() {
                 )}
                 {currentUser && (
                   <div className="dropdown-container">
-                    <button
-                      className="dropdown-toggle"
-                      onClick={toggleDropdown}
-                    >
+                    <button className="dropdown-toggle" onClick={toggleDropdown}>
                       <GoPerson className="fs-4 text-black" />
                     </button>
                     <div className={`dropdown-menu ${dropdownOpen ? 'open' : ''}`}>
-                      <Link to="/account" className="dropdown-item">
+                      <Link to="/account" className="dropdown-item" onClick={toggleDropdown}>
                         <GoPerson className="fs-4 me-2" /> Manage My Account
                       </Link>
-                      <Link to="/cart" className="dropdown-item">
+                      <Link to="/cart" className="dropdown-item" onClick={toggleDropdown}>
                         <LuShoppingBag className="fs-4 me-2" /> My Order
                       </Link>
-                      <a href="#/action-3" className="dropdown-item">
+                      <a href="#/action-3" className="dropdown-item" onClick={toggleDropdown}>
                         <MdOutlineCancel className="fs-4 me-2" /> My Cancellations
                       </a>
-                      <a href="#/action-2" className="dropdown-item">
+                      <a href="#/action-2" className="dropdown-item" onClick={toggleDropdown}>
                         <FaRegStar className="fs-4 me-2" /> My Reviews
                       </a>
-                      <a className="dropdown-item" onClick={logOut}>
+                      <a className="dropdown-item" onClick={logOut} >
                         <TbLogout2 className="fs-4 me-2" /> Logout
                       </a>
                     </div>
