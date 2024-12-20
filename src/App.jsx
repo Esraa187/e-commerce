@@ -42,7 +42,6 @@ function App() {
       <ToastContainer />
       <ScrollToTop />
       <Routes>
-        <Route element={<HomePage />} path=" " />
         <Route element={<HomePage />} path="/" />
         <Route element={<HomePage />} path="/home" />
         <Route element={<ProtectedRoute><About /></ProtectedRoute>} path="/about" />
@@ -56,7 +55,7 @@ function App() {
         <Route element={<ProtectedRoute><CatiegoriesItems /></ProtectedRoute>} path="/categories/:nameofCategory" />
         <Route element={<Login />} path="/login" />
         <Route element={<Register />} path="/register" />
-        {/* <Route element={<NotFound />} path="*" /> */}
+        <Route element={<NotFound />} path="*" />
       </Routes>
       <Footer />
     </>
