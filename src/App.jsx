@@ -42,7 +42,7 @@ function App() {
       <ToastContainer />
       <ScrollToTop />
       <Routes>
-      <Route element={<HomePage />} path="" />
+        <Route element={<HomePage />} path=" " />
         <Route element={<HomePage />} path="/" />
         <Route element={<HomePage />} path="/home" />
         <Route element={<ProtectedRoute><About /></ProtectedRoute>} path="/about" />
