@@ -1,0 +1,17 @@
+.category-content{
+    color: black;
+    cursor: pointer;
+    transition: all .3s ;
+}
+.category-icon{
+    font-size: 45px;
+}
+
+.category-content p{
+    height: 60px;
+    text-align: center;
+}
+.category-content:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}

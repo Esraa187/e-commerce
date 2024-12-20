@@ -1,0 +1,12 @@
+.card-img {
+    object-fit: contain;
+    height: 100%;
+}
+
+.card a {
+    border-bottom: 1px solid #ddd;
+    width: fit-content;
+}
+.card-text{
+    font-size: 14px;
+}

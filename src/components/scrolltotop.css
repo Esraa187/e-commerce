@@ -1,0 +1,10 @@
+.scroll-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    background-color: #eee;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    border: none;
+}

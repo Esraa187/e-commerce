@@ -1,0 +1,58 @@
+.concat-details,
+.concat-form {
+    box-shadow: 0 1px 13px 0 #0000000D;
+}
+
+.contact-form input {
+    width: 96%;
+}
+
+.contact-form input,
+textarea {
+    background-color: #F5F5F5;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.contact-icon-container {
+    width: 35px;
+    height: 35px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.contact-icon {
+    font-size: 20px;
+    color: #fff;
+}
+
+.concat-text {
+    font-size: 14px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.floating-placeholder {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    pointer-events: none;
+    font-size: 16px;
+    transition: 0.2s ease all;
+}
+
+.required-star {
+    color: rgba(219, 68, 68, 1);
+}
+

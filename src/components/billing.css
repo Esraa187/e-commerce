@@ -1,0 +1,39 @@
+.billing-control input{
+    background-color: #F5F5F5;
+    border: none;
+}
+.billing-control label{
+    font-size: 14px;
+    opacity: 40%;
+    margin-bottom: 5px;
+}
+.billing-control label span{
+    color: red;
+}
+.save .form-check-label{
+    font-size: 14px;
+}
+.payment-icons{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.payment-icons img{
+    width: 20%;
+    margin-right: 10px;
+}
+.billing-container{
+    padding-right: 10px;
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.billing-container::-webkit-scrollbar{
+    width: .6rem;
+    border-radius: .5rem;
+    background-color: rgb(231, 231, 231);
+}
+.billing-container::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #DB4444;
+}

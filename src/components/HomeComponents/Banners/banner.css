@@ -1,0 +1,62 @@
+.top-banner {
+    color: #00FF66;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 48px;
+}
+
+.banner-time {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.banner-time div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-top: 13px;
+}
+
+.banner-time p {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.banner-time .num {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.buy-now {
+    background-color: #00FF66;
+    color: #fff;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 4px;
+}
+
+.banner-img {
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.233) 30%, transparent 60%);
+}
+
+.banner-img img {
+   object-fit: contain;
+}
+@media  screen and (min-width: 1200px) {
+    .banner-img img {
+        transform: scale(1.12);
+     }
+  }

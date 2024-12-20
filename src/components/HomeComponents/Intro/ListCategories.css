@@ -1,0 +1,28 @@
+.dropdownheader{
+    cursor: pointer;
+}
+.dropdownheader span{
+    position: relative;
+    display: inline-block;
+    color: black;
+    width: 90%;
+}
+.dropdownheader span i{
+    position: absolute;
+    right: 0;
+    top: 30%;
+    font-size: 14px;
+}
+.dropmenu{
+    list-style: none;
+    padding: 0;
+    padding-left: 10px;
+}
+.dropmenu li{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+}
+.dropmenu li:hover{
+    background-color: #eee;
+}

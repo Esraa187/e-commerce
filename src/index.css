@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --main-color: #DB4444;
+}
+
+* {
+    font-family: "Poppins", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+
+.today-sale {
+    position: relative;
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+.today-sale::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    background-color: var(--main-color);
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+}
+
+.sale-time {
+    display: flex;
+    align-items: last baseline;
+    gap: 15px;
+}
+
+.sale-time div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sale-time p {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.sale-time span {
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+hr {
+    color: #00000075 !important;
+    margin-top: 60px !important;
+
+}
+.view-all{
+    background-color: var(--main-color);
+    color: #fff;
+}
+.notfound-btn{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 80px;
+}
+.notfound{
+    font-size: 70px;
+}

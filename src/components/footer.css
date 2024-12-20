@@ -1,0 +1,44 @@
+.footer-images{
+    height: 85px;
+}
+.footer-images img {
+   object-fit: contain;
+}
+footer p{
+    cursor: pointer;
+}
+.footer-text{
+    font-size: 15px;
+}
+.footer-text-special{
+    color: #FAFAFA !important;
+    font-size: 11px;
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 17px;
+}
+.footer-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 8px 20px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    width: fit-content;
+ 
+}
+.footer-form input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+.footer-form input::placeholder {
+    color: gray;
+    font-size: 12px;
+}
+
